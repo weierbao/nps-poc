@@ -7,3 +7,7 @@
 <img width="475" alt="4c5452e6b50035ce2bd3464d509af65" src="https://github.com/weierbao/nps-poc/assets/88136870/8f917668-d4e7-4c60-a32a-52f9f84324ea">
 
 这个是我在网上找的nps站点测试，可以监测出来，没问题
+
+监测出来漏洞可以利用，就会自动打开自带的浏览器并访问到后台地址
+
+<img width="647" alt="1699138250309" src="https://github.com/weierbao/nps-poc/assets/88136870/3a0d8fb6-0845-43d0-9d64-51206ceb7736">
