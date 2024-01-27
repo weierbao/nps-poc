@@ -12,3 +12,5 @@
 监测出来漏洞可以利用，就会自动打开自带的浏览器并访问到后台地址
 
 <img width="647" alt="1699138250309" src="https://github.com/weierbao/nps-poc/assets/88136870/3a0d8fb6-0845-43d0-9d64-51206ceb7736">
+
+这个代码是T00ls上的一位师傅帮忙改了一下，多了个批量检测@https://www.t00ls.com/members-profile-14778.html
